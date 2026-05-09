@@ -7,7 +7,7 @@ import '../core/constants/prefs_keys.dart';
 import '../core/storage/prefs_manager.dart';
 import '../core/l10n/app_localizations.dart';
 import '../core/theme/app_theme.dart';
-import '../feature/onboarding/presentation/view/onboarding_page.dart';
+import '../feature/onboarding/presentation/onboarding_page.dart';
 import '../feature/settings/presentation/cubit/settings_cubit.dart';
 import 'app_shell.dart';
 

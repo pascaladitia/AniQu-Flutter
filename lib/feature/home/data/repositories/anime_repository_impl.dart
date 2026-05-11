@@ -28,4 +28,12 @@ class AnimeRepositoryImpl implements AnimeRepository {
     });
   }
 
+  @override
+  Future<Result<List<AnimeItemModel>>> getAnimeCompleted() {
+    return _wrap(() async {
+      final response = await remote.getAnimeCompleted();
+      return response.animes ?? [];
+    });
+  }
+
 }

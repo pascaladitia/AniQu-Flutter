@@ -3,4 +3,5 @@ import 'package:aniqu_flutter/feature/home/data/models/anime/anime_item_model.da
 
 abstract class AnimeRepository {
   Future<Result<List<AnimeItemModel>>> getAnimeOngoing();
+  Future<Result<List<AnimeItemModel>>> getAnimeCompleted();
 }
